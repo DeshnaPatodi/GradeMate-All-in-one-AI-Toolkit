@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+
+/* * means it represent all elements of entire application so applied everywhere */
+*{
+    font-family: "Outfit", sans-serif;
+}
+
+/* no we will add primary colour ie theme colour for our project */
+@theme{
+    --color-primary:#5044E5;
+}
